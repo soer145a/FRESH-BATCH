@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Julekampagne 2019 KEA Eksamen</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/imgs/ClimaiderFavIcon.png"
+      type="image/x-icon"
+    />
+   
+    <meta name="description" content="RenSti kampagne og CO2 beregner">
+    <meta name="keywords" content="Grøn, Grøn-Livsstil, CO2 kompensation, RenSti, Climaider, Jul, donation">
+    <meta name="author" content="Søren Rembøll, Timmi Raaby, Rebecca Mortensen">
+    <meta name="robots" content="noindex">
+    
+  </head>
+  <body>
+    <header>
+      <div id="splash">
+        <div id="splashMobilImage">
+          <img
+            src="assets/imgs/BaggrundNyMobil.jpg"
+            alt="Billede af MobilBaggrund"
+          />
+        </div>
+        <div id="splashDesktopImage">
+          <img
+            src="assets/imgs/BaggrundNyDesktop (3).jpg"
+            alt="Billede af DesktopBaggrund"
+          />
+        </div>
+        <div id="splashHeadline">
+          <a href="">
+          <h2 id="splashHeadlineText">
+            Climaider
+          </h2>
+        </a>
+
+          <h2 id="SplashedHeadlineText2">
+            Bidrag Til En <span id="green">Grønnere</span> Jul
+          </h2>
+        </div>
+        <div id="splashText">
+          <p id="splashTextTxt">
+            Julen er forbrugernes højtid! Gaver, mad og juletræer høre til. Men
+            hvad betyder det for klimaet? Prøv vores CO2-beregner og find ud af
+            hvad dit forbrug udgør i CO2!
+          </p>
+        </div>
+     
+      </div>
+    </header>
+    <main>
+      <div id="goRight">
+        <img src="assets/imgs/arrow.png" id="goRightImg" />
+      </div>
+      <div id="goLeft">
+        <img src="assets/imgs/arrow.png" id="goLeftImg" />
+      </div>
+      <div id="calcCO2" class="regular">
+        <div id="questionSlider">
+          <div class="question" id="questionID1">
+            <div id="start"><p>Start CO2-beregner</p></div>
+            <h1 id="q1Headline">Madvaner</h1>
+            <div id="questionID1_1" class="subQuestion">
+              <div id="questionID1_1Headline">
+                <h2 class="q1H2">Vælg din kost</h2>
+              </div>
+              <div id="questionID1_1MainArea">
+                <div
+                  class="questionBox ID1_1"
+                  id="option1_1"
+                  data-type="vegetar"
+                >
+                  <p>Vegetar</p>
+                </div>
+                <div
+                  class="questionBox ID1_1"
+                  id="option1_2"
+                  data-type="veganer"
+                >
+                  <p>Veganer</p>
+                </div>
+                <div
+                  class="questionBox ID1_1"
+                  id="option1_3"
+                  data-type="pescetar"
+                >
+                  <p>Pescetar</p>
+                </div>
+                <div class="questionBox ID1_1" id="option1_4" data-type="varr">
+                  <p>Varrieret Kost</p>
+                </div>
+              </div>
+              <div id="questionID1_1Nav">
+                <div class="next1"><p>Næste</p></div>
+              </div>
+            </div>
+            <div id="questionID1_2" class="subQuestion">
+              <div id="questionID1_2Headline">
+                <h2 class="q1H2">Hvad spiser du? (vælg flere)</h2>
+              </div>
+              <div id="questionID1_2MainArea">
+                <div
+                  class="questionBox ID1_2"
+                  id="option2_1"
+                  data-type="flaeskesteg"
+                >
+                  <p>Flæskesteg</p>
+                </div>
+                <div class="questionBox ID1_2" id="option2_2" data-type="gaas">
+                  <p>Gås</p>
+                </div>
+                <div
+                  class="questionBox ID1_2"
+                  id="option2_3"
+                  data-type="medister"
+                >
+                  <p>Medister</p>
+                </div>
+                <div
+                  class="questionBox ID1_2"
+                  id="option2_4"
+                  data-type="frikadeller"
+                >
+                  <p>Frikadeller</p>
+                </div>
+                <div
+                  class="questionBox ID1_2"
+                  id="option2_5"
+                  data-type="leverpostej"
+                >
+                  <p>Leverpostej</p>
+                </div>
+                <div class="questionBox ID1_2" id="option2_6" data-type="sild">
+                  <p>Marinerede Sild</p>
+                </div>
+              </div>
+              <div id="questionID1_2Nav">
+                <div class="next2"><p>Næste</p></div>
+              </div>
+            </div>
+
+            <div id="questionID1_3" class="subQuestion">
+              <div id="questionID1_3Headline">
+                <h2 class="q1H2">Hvad spiser du? (vælg flere)</h2>
+              </div>
+              <div id="questionID1_3MainArea">
+                <div class="questionBox ID1_3" id="option3_1" data-type="kaal">
+                  <p>Hvidkål/Grønlangkål</p>
+                </div>
+                <div
+                  class="questionBox ID1_3"
+                  id="option2_2"
+                  data-type="kartofler"
+                >
+                  <p>Kartofler</p>
+                </div>
+                <div class="questionBox ID1_3" id="option3_3" data-type="rKaal">
+                  <p>Rødkål</p>
+                </div>
+                <div
+                  class="questionBox ID1_3"
+                  id="option3_4"
+                  data-type="nutPaste"
+                >
+                  <p>Nøddepostej</p>
+                </div>
+                <div class="questionBox ID1_3" id="option3_5" data-type="piske">
+                  <p>Piskefløde</p>
+                </div>
+              </div>
+              <div id="questionID1_3Nav">
+                <div class="next3"><p>Næste</p></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="question" id="questionID2">
+            <h1 id="q2Headline">Forbrug</h1>
+            <div id="questionID2_1" class="subquestion">
+              <div id="questionID2_1Headline">
+                <div class="q1H2">Hvilke typer af Gaver Køber du? (vælg flere)</div>
+              </div>
+              <div id="questionID2_1MainArea">
+                <div class="questionBox ID2_1" data-type="Elektronik">
+                  <p>Elektronik</p>
+                </div>
+                <div class="questionBox ID2_1" data-type="toy">
+                  <p>Legetøj</p>
+                </div>
+                <div class="questionBox ID2_1" data-type="digital">
+                  <p>Digitale / Gave Kort</p>
+                </div>
+                <div class="questionBox ID2_1" data-type="toej">
+                  <p>Tøj</p>
+                </div>
+              </div>
+              <div id="questionID2_1Nav">
+                <div class="next4"><p>Næste</p></div>
+              </div>
+            </div>
+            <div id="questionID2_2" class="subquestion">
+              <div id="questionID2_2Headline">
+                <div class="q1H2">Hvilke specifikke gaver køber du?</div>
+              </div>
+              <div id="questionID2_2MainArea">
+                <div id="answerBox1" class="ID2_2" data-type="Elektronik">
+                  <div class="answerBoxHeadline">
+                    <h2>Elektronik</h2>
+                  </div>
+                  <div class="valueBox" id="valueBox_1" data-type="telefon">
+                    <div class="incrementalCounter">
+                      <label for="telefon">Antal Telefoner </label
+                      ><input
+                        id="telefon"
+                        type="number"
+                        value="0"
+                        class="valueInput"
+                      />
+                    </div>
+                  </div>
+                  <div class="valueBox" id="valueBox_2" data-type="TV">
+                    <div class="incrementalCounter">
+                      <label for="TV">Antal TV/Konsoler</label
+                      ><input
+                        id="TV"
+                        type="number"
+                        value="0"
+                        class="valueInput"
+                      />
+                    </div>
+                  </div>
+                  <div class="valueBox" id="valueBox_3" data-type="hvidvare">
+                    <div class="incrementalCounter">
+                  
+                    </div>
+                  </div>
+                  <div class="valueBox" id="valueBox_4" data-type="konsoller">
+                    <div class="incrementalCounter">
+                   
+                    </div>
+                  </div>
+                </div>
+                <div id="answerBox2" class="ID2_2" data-type="toy">
+                  <div class="answerBoxHeadline">
+                    <h2>Legetøj</h2>
+                  </div>
+                  <div class="valueBox" id="valueBox_1" data-type="lToej">
+                    <label for="lToej">Antal legetøj (småt) </label
+                    ><input
+                      id="lToej"
+                      type="number"
+                      value="0"
+                      class="valueInput"
+                    />
+                  </div>
+                  <div class="valueBox" id="valueBox_2" data-type="sToej">
+                    <label for="sToej">Antal legetøj (stort) </label
+                    ><input
+                      id="sToej"
+                      type="number"
+                      value="0"
+                      class="valueInput"
+                    />
+                  </div>
+                </div>
+                <div id="answerBox3" class="ID2_2" data-type="digital">
+                  <div class="answerBoxHeadline">
+                    <h2>Digital</h2>
+                  </div>
+                  <div class="valueBox" id="valueBox_3" data-type="fGift">
+                    <label for="fGift">Antal Gavekort </label
+                    ><input
+                      id="fGift"
+                      type="number"
+                      value="0"
+                      class="valueInput"
+                    />
+                  </div>
+                  <div class="valueBox" id="valueBox_4" data-type="dGift">
+                    <label for="dGift">Antal Abonnomenter </label
+                    ><input
+                      id="dGift"
+                      type="number"
+                      value="0"
+                      class="valueInput"
+                    />
+                  </div>
+                  <div class="valueBox" id="valueBox_5" data-type="sub">
+                
+                  </div>
+                </div>
+                <div id="answerBox4" class="ID2_2" data-type="toej">
+                  <div class="answerBoxHeadline">
+                    <h2>Tøj</h2>
+                  </div>
+                  <div class="valueBox" id="valueBox_3" data-type="recycle">
+                    <label for="recycle">Antal genbrugs tøj </label
+                    ><input
+                      id="recycle"
+                      type="number"
+                      value="0"
+                      class="valueInput"
+                    />
+                  </div>
+                  <div class="valueBox" id="valueBox_4" data-type="discount">
+                    <label for="discount">Antal Nyt tøj </label
+                    ><input
+                      id="discount"
+                      type="number"
+                      value="0"
+                      class="valueInput"
+                    />
+                  </div>
+                  <div class="valueBox" id="valueBox_5" data-type="designer">
+                
+                  </div>
+                </div>
+              </div>
+              <div id="questionID2_2Nav">
+                <div class="next5"><p>Næste</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="question" id="questionID3">
+            <h1 id="q3Headline">Rejse Vaner</h1>
+            <div id="questionID3_1" class="subquestion">
+              <div id="questionID3_1Headline">
+                <div class="q1H2">Hvor holder du jul henne?</div>
+              </div>
+              <div id="questionID3_1MainArea">
+                <div class="questionBox ID3_1" data-type="julUde">
+                  <p>Jul ude af hjemmet</p>
+                </div>
+                <div class="questionBox ID3_1" data-type="julHjemme">
+                  <p>Jul der hjemme</p>
+                </div>
+                <div id="questionID3_1Nav">
+                  <div class="next6"><p>Næste</p></div>
+                </div>
+              </div>
+            </div>
+            <div id="questionID3_2" class="subquestion">
+              <div id="questionID3_2Headline">
+                <div class="q1H2">Hvordan rejser du?</div>
+              </div>
+              <div id="questionID3_2MainArea">
+                <div class="questionBox ID3_2" data-type="fly">
+                  <p>Med Fly</p>
+                </div>
+                <div class="questionBox ID3_2" data-type="bil">
+                  <p>I Bil</p>
+                </div>
+                <div class="questionBox ID3_2" data-type="tog">
+                  <p>Med Tog</p>
+                </div>
+                <label for="miles">Antal Kilometer (ca) </label
+                ><input id="miles" type="number" value="0" />
+              </div>
+              <div id="questionID3_2Nav">
+                <div class="next7"><p>Næste</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="question" id="questionID4">
+            <h1 id="q4Headline">Hustand</h1>
+            <div id="questionID4_1" class="subquestion">
+              <div id="questionID4_1Headline">
+                <div class="q1H2">Hvilken form for Energi bruger du?</div>
+              </div>
+              <div id="questionID4_1MainArea">
+                <div class="questionBox ID4_1" data-type="el">
+                  <p>Primært EL</p>
+                </div>
+                <div class="questionBox ID4_1" data-type="varme">
+                  <p>Primært Fjernvarme</p>
+                </div>
+              </div>
+              <div id="questionID4_1Nav">
+                <div class="next8"><p>Næste</p></div>
+              </div>
+            </div>
+            <div id="questionID4_2" class="subquestion">
+              <div id="questionID4_2Headline">
+                <div class="q1H2">Hvilken form for Energi bruger du?</div>
+              </div>
+              <div id="questionID4_2MainArea">
+                <div class="incrementalCounter">
+                  <label for="ovn">Timer EL med Ovn: </label
+                  ><input id="ovn" type="number" value="0" />
+                </div>
+                <div class="incrementalCounter">
+                  <label for="led">Timer EL med LED: </label
+                  ><input id="led" type="number" value="0" />
+                </div>
+                <div class="incrementalCounter">
+                  <label for="lamp">Timer EL med lamper: </label
+                  ><input id="lamp" type="number" value="0" />
+                </div>
+                <div class="incrementalCounter">
+                  <label for="radiator">Timer EL med radiator: </label
+                  ><input id="radiator" type="number" value="0" />
+                </div>
+              </div>
+              <div id="questionID4_2Nav">
+                <div class="next9"><p>Næste</p></div>
+              </div>
+            </div>
+            <div id="questionID4_3" class="subquestion">
+              <div id="questionID4_3Headline">
+                <div class="q1H2">Hvilken form for Energi bruger du i timer?</div>
+              </div>
+              <div id="questionID4_3MainArea">
+                <div class="incrementalCounter">
+                  <label for="ovnF">Ovn: </label>
+                  <input id="ovnF" type="number" value="0" />
+                </div>
+                <div class="incrementalCounter">
+                  <label for="radiatorF">Radiator: </label>
+                  <input id="radiatorF" type="number" value="0" />
+                </div>
+              </div>
+              <div id="questionID4_3Nav">
+                <div class="next10"><p>Næste</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="endCard" class="up">
+          <div id="endCardHeadline">
+            <h2>Vælg en gave</h2>
+            <p id="resultatTekst"> Den gennemsnitlige dansker udleder 200 kilo CO2, som svare til 150,- DKK. Din udledning er  <span id="kgCO2"> </span>kg, som svarer til <span id="resultat1"></span>,-. </p>
+
+          </div>
+          <div id="endCardMain">
+            <div id="endCardOptions">
+              <div class="present" id="present_1">
+            
+              </div>
+              <div class="present" id="present_2">
+                <img src="assets/imgs/Lille Pakke.png" alt="lillePAkke" id="present_2Img" class="presentImg">
+                <p class="presentText">Giv en stor pakke (50,- DKK)</p>
+              </div>
+              <div class="present" id="present_3">
+                <img src="assets/imgs/Mellem Pakke.png" alt="mellemPakke" id="present_3Img" class="presentImg">
+                <p class="presentText">Giv en større pakke (150,- DKK)</p>
+              </div>
+              <div class="present" id="present_4">
+                <img src="assets/imgs/Stor Pakke.png" alt="storpakke" id="present_2Img" class="presentImg">
+                <p class="presentText">Giv den største pakke (300,- DKK)</p>
+              </div>
+            </div>
+            <div id="buy">
+              <p>Køb</p>
+            </div>
+          </div>
+          <div id="linkToRenSti"></div>
+        </div>
+        <div id="payment" class="paymentUp">
+          <h2 id="paymentHeadline">Betaling</h2>
+          
+            <label id="cardLabel">Kortnummer 
+            <input id="cardInput" type="number" placeholder="XXXX-XXXX-XXXX-XXXX" ></label>
+          
+          <br>
+          <label id="expireDate">Udløbsdato <br>
+	
+		<span ><input class="birthday " id="birthday1" type="text" pattern="[0-9]*" value="" placeholder="01" size="2" maxlength="2" name="BIRTHDAY[month]" ></span> / 
+		<span ><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="01" size="2" maxlength="2" name="BIRTHDAY[day]"></span> 
+		
+  </label>
+  
+  <label id="CVV">CVV
+	
+		<span ><input class="CVVInput " type="text" pattern="[0-9]*" value="" placeholder="XXX" size="3" maxlength="3" name="BIRTHDAY[month]" ></span> 
+		
+		
+  </label>
+          
+          <!-- Begin Mailchimp Signup Form -->
+<link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://remboll.us3.list-manage.com/subscribe/post?u=5be5cdb9a1a01a4e4dd12c771&amp;id=0a518b0e60" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+  <h2>Email Oplysninger for Certifikatet</h2>
+  <p id="paymentTagLine">
+    Som tak for hjælpen med at gøre Jorden <span id="makeMeGreen">grønnere</span>, sender vi dig her et certifikat på dit bidrag.
+  </p>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Addresse  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">Fornavn </label>
+	<input type="text" value="" name="FNAME" class="inputName" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Efternavn</label>
+	<input type="text" value="" name="LNAME" class="inputName" id="mce-LNAME">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5be5cdb9a1a01a4e4dd12c771_0a518b0e60" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Send og Betal!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+<div id="thankYou" class="thankYouUp">
+  
+  <div id="thankYouImgContainer">
+    <img src="assets/imgs/JuleStig.png" id="thankYouIMG" />
+    
+  </div>
+  <h2 id="thankYouHeadline">
+    Tak for din støtte til at holde julen grøn!
+  </h2>
+  <p id="thankYouText">
+    Din bekræftelses email med dit certifikat er på vej!
+  </p>
+
+</div>
+        </div></div>
+        
+        
+        
+        
+      
+      <div id="info" class="infoRegular">
+        <div id="grafikArea1">
+          <div class="grafikElement1" id="grafikElement1_1">
+            <img id="Stig_1" src="assets/imgs/Infografic_1.png" alt="Stig_1" />
+          </div>
+          <div class="grafikElement1" id="grafikElement1_2">
+            <img id="Stig_2" src="assets/imgs/Infografic_2.png" alt="Stig_2" />
+          </div>
+          <div class="grafikElement1" id="grafikElement1_3">
+            <img id="Stig_3" src="assets/imgs/Infografic_3.png" alt="Stig_3" />
+          </div>
+        </div>
+        <div id="infoHeadline2"><h2 id="InfoHeadline2Text">Hvad går pengene til?</h2></div>
+        <div id="infoText">
+          <p id="infoTextTxt">
+            Hos Climaider støtter vi kun projekter som er verificeret af The Golden Standard - et uafhængigt verificerings-program startet af verdensnaturfonden. <span id="makeMeGreen">75%</span> af alle donationer går til plantning af træer, hvor <span id="makeMeLightBlue">25%</span> går til drift.
+          </p>
+
+         <a href="https://rensti.dk/co2-kompensation/?fbclid=IwAR30GT48-ehtWAz_EBYo0wHyviX4t5-SttwAFhrctQni7D-5IUuR2ix8JEc"><div id="mere">Læs mere</div></a>
+
+         <div id="infoHeadline3"><h2 id="InfoHeadline3Text">Giv en Julegave</h2></div>
+         <div id="infoText3">
+           <p id="infoTextTxt3">
+            Tryk på start, for at prøve vores beregner. Når du har svaret på alle spørgsmålene, kan du vælge den pakkeløsning som passer bedst til dig!
+           </p></div>
+      
+    
+        </div>
+        <div id="grafikArea2">
+          <div class="grafikElement2" id="grafikElement2_1">
+            <img
+              id="Pakke_1"
+              src="assets/imgs/Lille Pakke.png"
+              alt="Lille Pakke"
+            />
+            <h3 id="PakkeTekst_1">Stor Pakke (50,- DKK)</h3>
+          </div>
+
+          <div class="grafikElement2" id="grafikElement2_2">
+            <img
+              id="Pakke_2"
+              src="assets/imgs/Mellem Pakke.png"
+              alt="Mellem Pakke"
+            />
+            <h3 id="PakkeTekst_2">Større Pakke (150,- DKK)</h3>
+          </div>
+
+          <div class="grafikElement2" id="grafikElement2_3">
+            <img
+              id="Pakke_3"
+              src="assets/imgs/Stor Pakke.png"
+              alt="Stor Pakke"
+            />
+            <h3 id="PakkeTekst_3">Største Pakke (300,- DKK)</h3>
+          </div>
+        </div>
+      </div>
+      <div id="collabHeadline" class="collabHeadlineRegular">
+        <h2 id="collabHeadlineText">Samarbejdspartnere</h2>
+      </div>
+      <div id="collaborators" class="collaboratorsRegular">
+        <div class="collabElement">
+          <img
+            id="collab_1"
+            src="assets/imgs/cphfw-monogram-black.png"
+            alt="Copenhagen Fashion Week"
+          />
+        </div>
+        <div class="collabElement">
+          <img
+            id="collab_2"
+            src="assets/imgs/hoodheroes-RenSti-300x151.png"
+            alt="HoodHeroes"
+          />
+        </div>
+        <div class="collabElement">
+          <img
+            id="collab_3"
+            src="assets/imgs/Tuborgfondet-RenSti-300x151.png"
+            alt="TuborgFondet"
+          />
+        </div>
+        <div class="collabElement">
+          <img
+            id="collab_4"
+            src="assets/imgs/Eon-RenSti-300x151.png"
+            alt="Eon"
+          />
+        </div>
+      </div>
+    </main>
+    <footer class="footerRegular">
+      <div id="kontakt">
+        <h3>Kontakt</h3>
+        <p>rensti@rensti.dk</p>
+        <p>+45 30 24 83 13</p>
+        <a href="https://rensti.dk/" _blank">RenSti.dk</a>
+        <div id="socialMediaIcons">
+          <a href="https://www.facebook.com/RenStiDK/">
+            <img src="assets/imgs/facebook.png" alt="RenSti's Facebook side" class="someIcon">
+          </a>
+          <a href="https://www.instagram.com/rensti_danmark/">
+            <img src="assets/imgs/instagram.png" alt="RenSti's instagram" class="someIcon" id="instagram">
+          </a>
+        </div>
+      </div>
+
+    </footer>
+  </body>
+  <script src="index.js"></script>
+</html>

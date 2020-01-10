@@ -1,0 +1,19 @@
+{
+  "name": "kea-eksamen-2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watchsass": "node-sass --output-style expanded main.scss output.css -w"
+  },
+  "author": "sørenrembøll",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "gsap": "^3.0.4"
+  }
+}
